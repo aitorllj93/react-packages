@@ -19,3 +19,50 @@
   - sci-fi
   - cyberpunk
   description: Futuristic Sci-Fi and Cyberpunk Graphical User Interface Framework for Web Apps
+- name: antd
+  npm: antd
+  owner: ant-design
+  repo: ant-design
+  url: https://ant.design/
+  category: UI Kit
+  tags: []
+  description: A UI Design Language and React UI library
+- name: material-ui
+  npm: "@material-ui/core"
+  owner: mui-org
+  repo: material-ui
+  url: https://material-ui.com/
+  category: UI Kit
+  tags:
+  - material-design
+  description: React components for faster and easier web development. Build your own design system, or start with Material Design.
+- name: fluent-ui
+  npm: "@fluentui/react"
+  owner: microsoft
+  repo: fluentui
+  url: https://developer.microsoft.com/en-us/fluentui#/
+  category: UI Kit
+  tags:
+  - fluent-ui
+  description: An ecosystem for building highly customizable enterprise class user interfaces.
+- name: react-bootstrap
+  npm: react-bootstrap
+  owner: react-bootstrap
+  repo: react-bootstrap
+  url: https://react-bootstrap.github.io/
+  category: UI Kit
+  tags:
+  - bootstrap
+  description: The most popular front-end framework rebuilt for React.
+- name: "@tippyjs/react"
+  npm: "@tippyjs/react"
+  owner: atomiks
+  repo: tippyjs-react
+  url: https://github.com/atomiks/tippyjs-react#readme
+  category: Component
+  tags:
+  - tooltip
+  - popover
+  - dropdown
+  - menu
+  description: Tippy.js is the complete tooltip, popover, dropdown, and menu solution for the web, powered by Popper.js.
