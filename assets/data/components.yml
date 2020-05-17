@@ -8,3 +8,14 @@
   tags:
   - animation
   description: An open source React library to power production-ready animations. Design fluid animations for the web, across desktop and mobile.
+- name: arwes
+  npm: arwes
+  owner: arwes
+  repo: arwes
+  url: https://arwes.dev/
+  category: UI Kit
+  tags:
+  - futuristic
+  - sci-fi
+  - cyberpunk
+  description: Futuristic Sci-Fi and Cyberpunk Graphical User Interface Framework for Web Apps
