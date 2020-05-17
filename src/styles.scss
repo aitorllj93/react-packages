@@ -3,8 +3,8 @@
 @use './styles/body';
 
 @use '@material/theme' with (
-  $primary: #1976d3,
-  $secondary: #de002f,
+  $primary: #62dafc,
+  $secondary: #20232a,
   $background: #fff,
 );
 
@@ -27,8 +27,12 @@
 @use 'github-markdown-css/github-markdown.css';
 
 @use "@ng-select/ng-select/scss/material.theme" as ng-select-material with (
-  $ng-select-highlight: #1976d3
+  $ng-select-highlight: #62dafc
 );
+
+.mdc-top-app-bar__title {
+  color: white;
+}
 
 .markdown-body {
   box-sizing: border-box;
@@ -43,7 +47,7 @@
 }
 
 .circle-component {
-  background: #1B9CFC;
+  background: #62dafc;
 }
 
 .circle-ui {
@@ -73,7 +77,7 @@
       span {
         padding: 40px 0;
         font-weight: 500;
-        color: #1976d3;
+        color: #62dafc;
       }
 
       img {
@@ -81,7 +85,7 @@
       }
 
       &:hover {
-        background: #1976d3;
+        background: #62dafc;
         span {
           color: white;
         }

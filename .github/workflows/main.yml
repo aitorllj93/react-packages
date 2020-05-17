@@ -19,15 +19,15 @@ jobs:
         run: npm i
 
       - name: Build angular app
-        run: npm run build -- --prod --base-href /angular-packages/
+        run: npm run build -- --prod --base-href /react-packages/
 
       - name: Copy Index as 404
-        run: cp dist/angular-packages/index.html dist/angular-packages/404.html
+        run: cp dist/react-packages/index.html dist/react-packages/404.html
 
       - name: Publish to GH Pages Branch
         uses: s0/git-publish-subdir-action@master
         env:
           REPO: self
           BRANCH: gh-pages
-          FOLDER: dist/angular-packages
+          FOLDER: dist/react-packages
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

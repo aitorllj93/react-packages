@@ -1,6 +1,6 @@
 # Angular Packages
 
-[![website](https://img.shields.io/badge/-website-ff69b4)](https://d3v0ps.github.io/angular-packages)
+[![website](https://img.shields.io/badge/-website-ff69b4)](https://d3v0ps.github.io/react-packages)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.0.
 

@@ -6,14 +6,14 @@ import { Component } from '@angular/core';
     <mdc-top-app-bar fixed [scrollTarget]="fixedContent">
       <mdc-top-app-bar-row>
         <mdc-top-app-bar-section style="cursor: pointer;" align="start" [routerLink]="['']">
-          <mdc-icon fontSet="mdi" fontIcon="mdi-angular" style="font-size: 40px; color: white;">
+          <mdc-icon fontSet="mdi" fontIcon="mdi-react" style="font-size: 40px; color: white;">
           </mdc-icon>
           <span class="mdc-top-app-bar__title">
-            Angular Packages
+            React Packages
           </span>
         </mdc-top-app-bar-section>
           <mdc-top-app-bar-section align="end">
-            <a href="https://github.com/d3v0ps/angular-packages">
+            <a href="https://github.com/d3v0ps/react-packages">
               <mdc-icon fontSet="mdi" fontIcon="mdi-github" style="font-size: 40px; color: white;">
               </mdc-icon>
             </a>

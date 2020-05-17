@@ -102,7 +102,7 @@ import * as _ from 'lodash';
 
       </div>
 
-      <a href="https://github.com/d3v0ps/angular-packages/issues" target="blank" style="text-decoration: none; color: #69511e !important;">
+      <a href="https://github.com/d3v0ps/react-packages/issues" target="blank" style="text-decoration: none; color: #69511e !important;">
         <mdc-card class="demo-card" style="margin-bottom: 20px; background: #EAB543;" outlined>
           <mdc-ripple class="demo-card-article">
             Send me more packages
@@ -151,10 +151,11 @@ export class PackageListContainerComponent implements OnInit {
       switchMap(() => this.service.fetchTags()),
       tap(tags => {
         this.tags$.next(tags);
+        this.loading = false;
         this.onFilterChange();
       })
     )
-    .subscribe(() => this.loading = false);
+    .subscribe();
   }
 
   onTagClick({ tag }) {
@@ -175,6 +176,7 @@ export class PackageListContainerComponent implements OnInit {
   }
 
   onFilterChange() {
+    this.loading = true;
     this.filteredPkgs$.next(_.sortBy(this.pkgs$.value, ['category', 'npm']).filter(
       pkg => {
         const matchesTags = this.filterTags.length <= 0 || pkg.tags.some(
@@ -189,5 +191,6 @@ export class PackageListContainerComponent implements OnInit {
         return matchesTags && matchesCategories && matchesText;
       }
     ));
+    this.loading = false;
   }
 }
