@@ -1,0 +1,10 @@
+---
+- name: motion
+  npm: framer-motion
+  owner: framer
+  repo: motion
+  url: https://www.framer.com/motion/
+  category: Component
+  tags:
+  - animation
+  description: An open source React library to power production-ready animations. Design fluid animations for the web, across desktop and mobile.
