@@ -1,4 +1,4 @@
-# Angular Packages
+# React Packages
 
 [![website](https://img.shields.io/badge/-website-ff69b4)](https://d3v0ps.github.io/react-packages)
 
